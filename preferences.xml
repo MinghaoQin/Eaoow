@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key = "distance_category"
+        android:title="Restaurant Preferences">
+
+        <ListPreference
+            android:key="key_restaurant_distance"
+            android:title="Search Distance"
+            android:summary = "Choosing how far you want restaurants nearby"
+            android:entries="@array/distanceList"
+            android:entryValues="@array/distanceListValues">
+        </ListPreference>
+
+        <MultiSelectListPreference
+            android:key="key_restaurant_price"
+            android:title="Preferred Price"
+            android:summary="Choosing how much you would like to pay, one option only"
+            android:entries="@array/priceList"
+            android:entryValues="@array/priceListValues">
+        </MultiSelectListPreference>
+
+        <ListPreference
+            android:key="key_restaurant_rating"
+            android:title="Restaurant Rating"
+            android:summary = "Choosing restaurants rating point  (5 is the Highest) "
+            android:entries="@array/ratingList"
+         android:entryValues="@array/ratingListValues">
+        </ListPreference>
+
+
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key = "justForSpace"
+        android:title="
+
+
+
+
+
+">
+
+    <Preference android:title="Save "
+        android:key="@string/key_save"
+        android:summary="Save and go back"/>
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/yes_btn"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="420dp"
+        android:text="Yes" />
+
+
+    <Button
+        android:id="@+id/no_btn"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/yes_btn"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="-132dp"
+        android:text="NO" />
+
+    <TextView
+        android:id="@+id/rcomdRestaurant_text"
+        android:layout_width="386dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="140dp"
+        android:text="Recommended Restaurant Shows Here"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/add_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="26dp"
+        android:text="Current Location:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <TextView
+        android:id="@+id/current_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_label"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="15dp"
+        android:lines="3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/btnShowSetting"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="190dp"
+        android:layout_centerHorizontal="true"
+        android:text="Food Preferences " />
+
+    <Button
+        android:id="@+id/btnDisplayDb"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="260dp"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="See my favourite restaurant" />
+
+
+</RelativeLayout>
+
+
